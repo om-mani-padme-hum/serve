@@ -40,3 +40,15 @@ npm i -g eslint
   "database"        : "my_db"
 }
 ```
+
+## Running Example
+
+To start the application, use the start script:
+
+```bash
+npm start
+```
+
+This will run `minify.sh` and then `node index.js`.
+
+You can then navigate to the example at [http://localhost:3000/load/user](http://localhost:3000/load/user)
