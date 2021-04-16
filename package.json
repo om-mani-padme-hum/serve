@@ -1,0 +1,41 @@
+{
+  "name": "serve",
+  "version": "1.0.0",
+  "description": "A generic web service framework with a few helpful addons",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ezobjects-mysql": "^11.1.0",
+    "jquery": "^3.6.0",
+    "jquery-color": "^2.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mysql-await": "^2.1.8",
+    "numeral": "^2.0.6",
+    "strapped": "^0.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "bash minify.sh; node index.js",
+    "test": "eslint ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/om-mani-padme-hum/serve.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "service",
+    "framework",
+    "mysql",
+    "simple"
+  ],
+  "author": "Rich Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/om-mani-padme-hum/serve/issues"
+  },
+  "homepage": "https://github.com/om-mani-padme-hum/serve#readme"
+}

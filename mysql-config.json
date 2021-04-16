@@ -1,0 +1,7 @@
+{
+  "connectionLimit" : 3,
+  "host"            : "localhost",
+  "user"            : "my_user",
+  "password"        : "my_password",
+  "database"        : "my_database"
+}
